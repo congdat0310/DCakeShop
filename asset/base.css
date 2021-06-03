@@ -1,0 +1,73 @@
+:root{
+    --primary--color: #ee4b2b;
+    --white--color: #fff;
+    --black--color: #000;
+    --text--color: #333;
+}
+*{
+  
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/hinh-nen-galaxy-may-tinh-9.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.grid{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* animation */
+
+@keyframes fadeIn {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body{
+    width: 400px;
+    height: 500px;
+    border-radius: 4px;
+    margin: auto;
+    background-color: var(--white--color);
+    position: relative;
+    z-index: 1;
+}
+
