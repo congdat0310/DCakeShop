@@ -1,6 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.photo
+{
+    width: 900px;
+    height: 470px;
+}
+.seller-img
+{
+    width: 500px;
+    height: 235px;
+} 
 #logoimage
 {
     height: 61px;
@@ -11,7 +21,6 @@ img
 height: 250px;
 width: 100px;
 }
-
 *{
   
     font-family: "Raleway", sans-serif;
@@ -297,7 +306,10 @@ nav > ul li > ul li >ul{
 .text-color {
     color: #000;
 }
-
+.text
+{
+    font-size: 15px;
+}
 .watch-img {
     margin-top: 35px;
 }
@@ -305,6 +317,8 @@ nav > ul li > ul li >ul{
 .watch-img {
     animation-name: imgLeft;
     animation-duration: 3s;
+    width: 500px;
+    height: 350px;
 }
 
 .about-text {
@@ -353,9 +367,10 @@ nav > ul li > ul li >ul{
     right: 30px;
     left: 30px;
     padding: 10px 0;
-    color: white;
-    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
     cursor: pointer;
+    font-size: 11px;
 }
 
 .seller-item p {
