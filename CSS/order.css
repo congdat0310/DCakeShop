@@ -21,6 +21,7 @@ html {
     font-weight: 500;
     text-align: center;
     letter-spacing: 4px;
+    font-weight: bolder;
 }
 #content .section-text {
     font-size: 15px;
@@ -54,12 +55,14 @@ html {
     color: #fff;
     border: 1px solid #000;
     font-size: 15px;
+    width: 50px;
 }
 .btn-2 {
     background-color: #000;
     color: #fff;
     border: 1px solid #000;
     font-size: 15px;
+    width: 50px;
 }
 button, input {
     overflow: visible;
@@ -68,4 +71,15 @@ button, input {
 select {
     word-wrap: normal;
     margin-bottom: 7px;
+}
+.form-content
+{
+    border: #000 1px solid;
+    width: 420px;
+    height: 410px;
+    text-align: right;
+}
+#khung
+{
+    text-align: left;
 }
