@@ -1,0 +1,75 @@
+.photo
+{
+    width: 900px;
+    height: 470px;
+}
+.seller-img
+{
+    width: 500px;
+    height: 235px;
+} 
+.watch-img {
+    margin-top: 35px;
+}
+
+.watch-img {
+    animation-name: imgLeft;
+    animation-duration: 3s;
+    width: 900px;
+    height: 350px;
+}
+.about-sec {
+    margin-top: 25px;
+}
+
+.text-color {
+    color: #000;
+}
+.text
+{
+    font-size: 15px;
+}
+.about-text {
+    animation-name: textRight;
+    animation-duration: 3s;
+}
+.seller {
+    background: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.img-top {
+    margin-top: 10px;
+}
+
+.seller-item {
+    text-align: right;
+}
+
+.seller-item p {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.seller-item p {
+    bottom: 30px;
+    line-height: 1.5;
+    transform: translate3d(0, 100%, 0);
+}
+
+.seller-item p {
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.seller-item:hover p {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
